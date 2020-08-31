@@ -1,0 +1,55 @@
+{
+  "Wood": {},
+  "Iron ore": {},
+  "Wooden chest": {
+    "mats": {
+      "Wood": 2
+    },
+    "time": 0.5,
+    "produced": 1
+  },
+  "Iron plate": {
+    "mats": {
+      "Iron ore": 1
+    },
+    "time": 3.2,
+    "produced": 1
+  },
+  "Iron chest": {
+    "mats": {
+      "Iron plate": 8
+    },
+    "time": 0.5,
+    "produced": 1
+  },
+  "Steel plate": {
+    "mats": {
+      "Iron plate": 5
+    },
+    "time": 16,
+    "produced": 1
+  },
+  "Steel chest": {
+    "mats": {
+      "Steel plate": 8
+    },
+    "time": 0.5,
+    "produced": 1
+  },
+  "Storage tank": {
+    "mats": {
+      "Iron plate": 20,
+      "Steel plate": 5
+    },
+    "time": 3.0,
+    "produced": 1
+  },
+  "Transport belt": {
+    "mats": {
+      "Iron gear wheel": 1,
+      "Iron plate": 1
+    },
+    "time": 0.5,
+    "produced": 2
+  },
+}
